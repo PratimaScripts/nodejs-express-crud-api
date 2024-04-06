@@ -1,0 +1,14 @@
+option_settings:
+  aws:elasticbeanstalk:environment:proxy:
+    CORSConfiguration:
+      corsRules:
+        - allowedOrigins:
+            - "*" # Replace with specific origins if needed
+          allowedHeaders:
+            - "*"
+          allowedMethods:
+            - GET
+            - POST
+            - PUT
+            - DELETE
+            - OPTIONS

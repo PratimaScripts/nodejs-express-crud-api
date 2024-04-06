@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-crud-api",
+  "author": "Pratima Gautam",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "aws-sdk": "2.874.0",
+    "cors": "^2.8.5",
+    "express": "4.17.1"
+  }
+}
