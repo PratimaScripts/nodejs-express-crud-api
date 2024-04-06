@@ -11,13 +11,13 @@ This repository contains a Node.js Express API for performing CRUD (Create, Read
     cd <repository-name>
     ```
 
-2. **Install Dependencies**
+2. **Install Dependencies (Optional)** 
 
     ```bash
     npm install
     ```
 
-3. **Configure AWS Credentials**
+3. **Configure AWS Credentials (Optional)**
 
     Ensure that your AWS credentials are configured properly on your local machine. You can do this by installing the AWS CLI and running `aws configure`.
 
