@@ -11,7 +11,7 @@ This repository contains a Node.js Express API for performing CRUD (Create, Read
     cd <repository-name>
     ```
 
-2. **Install Dependencies (Optional)** 
+2. **Install Dependencies (Optional)**
 
     ```bash
     npm install
