@@ -5,7 +5,7 @@ AWS.config.update({
   region: 'us-east-1'
 });
 const dynamodb = new AWS.DynamoDB.DocumentClient();
-const dynamodbTableName = 'product-inventory';
+const dynamodbTableName = process.env.DYNAMODB_TABLE_NAME || 'product-inventory';
 
 router.get('/:productId', async (req, res) => {
   const productId = req.params.productId;
